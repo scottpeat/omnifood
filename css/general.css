@@ -82,6 +82,10 @@ body {
     gap: 9.6rem;
 }
 
+.grid:not(:last-child) {
+    margin-bottom: 0;
+}
+
 .grid--2-cols {
     grid-template-columns: repeat(2, 1fr);
 }
